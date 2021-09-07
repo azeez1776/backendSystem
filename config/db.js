@@ -11,7 +11,7 @@ const connectDB = async function () {
     }
     catch(err) {
         console.error(`Error found ${err.message}`);
-        process.exit(1);//existing an asynchronous function process with an uncaught fatal error shown by the number 1.
+        process.exit(1);//exiting an asynchronous function process with an uncaught fatal error shown by the number 1.
     }
 }
 

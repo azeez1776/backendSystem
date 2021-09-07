@@ -1,3 +1,4 @@
 {
-    "mongoURI":"mongodb+srv://samatar:1776USA@samatar.43ebf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+    "mongoURI":"mongodb://127.0.0.1:27017/UniAPI?readPreference=primary&appname=MongoDB%20Compass&ssl=false",
+    "jwtsecret":"azeez"
 }
