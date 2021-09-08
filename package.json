@@ -1,12 +1,12 @@
 {
-  "name": "ContactKeeper",
+  "name": "nodejs-backend-framework-mongodb",
   "version": "1.0.0",
-  "description": "Node Backend",
+  "description": "Node backend used with mongodb",
   "main": "serverr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js",
-    "server":"nodemon server.js"
+    "start": "node server.js",
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
