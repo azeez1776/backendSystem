@@ -16,7 +16,7 @@ router.post('/', [auth,
         check('type', 'Type must be personal or professional').isIn([
             'personal',
             'professional'
-        ])
+        ])]
     ]
 , async (req, res) => {
     const errors = validationResult(req);
